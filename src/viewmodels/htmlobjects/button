@@ -1,0 +1,1 @@
+<button id="{{.ID}}" type="button">{{.Caption}}</button>

@@ -1,0 +1,5 @@
+{{range .}}
+{{if eq .Type "textbox"}}{{template "textbox" .ItemData}}{{end}}
+{{if eq .Type "button"}}{{template "button" .ItemData}}{{end}}
+{{if eq .Type "br"}}{{template "br" .ItemData}}{{end}}
+{{end}}
